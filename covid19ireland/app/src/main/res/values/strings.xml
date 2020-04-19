@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cases in Ireland</string>
+    <string name="covid_title"> Covid 19 Ireland </string>
+    <string name="view_stats"> View Statistics </string>
+    <string name="add_case"> Add Case </string>
+    <string name="case_name">Name</string>
+    <string name="case_address">Address</string>
+    <string name="case_condition">Condition</string>
+    <string name="case_status">Status</string>
+    <string name="delete_case">Delete</string>
+    <string name="update_case">Update</string>
+</resources>

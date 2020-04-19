@@ -1,0 +1,9 @@
+*.iml
+covid19ireland/.gradle
+covid19ireland/local.properties
+covid19ireland/.idea
+covid19ireland/.DS_Store
+covid19ireland/build
+covid19ireland/captures
+covid19ireland/.externalNativeBuild
+covid19ireland/.cxx
