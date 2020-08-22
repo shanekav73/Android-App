@@ -8,15 +8,12 @@ import org.jetbrains.anko.AnkoLogger
 import org.jetbrains.anko.startActivityForResult
 import org.jetbrains.anko.toast
 
-//FIRST ACTIVITY WITH BIOHAZARD PICTURE
-
 class MainActivity : AppCompatActivity(), AnkoLogger {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // WHAT TO DO WHEN VIEW STATISICS BUTTON IS PRESSED > REDIRECT TO LIST ACTIVITY
         btnViewStats.setOnClickListener() {
             startActivityForResult<ListActivity>(0)
         }

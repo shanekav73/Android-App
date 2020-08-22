@@ -7,8 +7,6 @@ import android.view.ViewGroup
 import com.skavangh.covid19ireland.R
 import kotlinx.android.synthetic.main.case_card.view.*
 
-// BOILERPLATE CODE - THIS IS THE ADAPTER OF THE LIST OF CASES - IT INSTRUCTS WHAT TO DO WITH EACH CARD. CARD IS A SINGLE CASE UNIT OF CASE
-
 interface CaseListener {
     fun onCaseClick(case: CaseModel)
     fun onCaseClickDelete(case: CaseModel)
