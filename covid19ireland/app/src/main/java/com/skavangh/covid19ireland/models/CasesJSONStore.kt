@@ -46,13 +46,16 @@ class CasesJSONStore : CasesStore, AnkoLogger {
             foundCase.condition = case.condition
             foundCase.status = case.status
         }
+        serialize()
     }
 
     override fun delete(case: CaseModel) {
         cases.remove(case)
         serialize()
     }
-
+    //takes in string of new case and writes it to json file.
+    // when app opens and loads this json file is read from and it resides on the phone which is
+    //how persistance works
     private fun serialize() {
         val jsonString = gsonBuilder.toJson(cases, listType)
         write(context, JSON_FILE, jsonString)
